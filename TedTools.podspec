@@ -30,7 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TedTools/Classes/**/*','TedTools/Classes/Base/**/*'
+  s.source_files = 'TedTools/Classes/**/*'
+  
+  #-----Subspec -------#
+  
+  s.subspce 'Base' do |ss|
+    ss.source_files = 'TedTools/Classes/Base.{h,m}'
+    end
   
   # s.resource_bundles = {
   #   'TedTools' => ['TedTools/Assets/*.png']
