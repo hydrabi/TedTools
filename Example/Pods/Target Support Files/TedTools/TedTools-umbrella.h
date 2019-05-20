@@ -10,7 +10,9 @@
 #endif
 #endif
 
-#import "TestObj.h"
+#import "Tools.h"
+#import "Test1.h"
+#import "Test2.h"
 
 FOUNDATION_EXPORT double TedToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TedToolsVersionString[];

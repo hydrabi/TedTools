@@ -1,9 +1,9 @@
 {
   "name": "TedTools",
   "version": "0.1.0",
-  "summary": "A short description of TedTools.",
+  "summary": "Tools",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1016590797@qq.com/TedTools",
+  "homepage": "https://github.com/hydrabi/TedTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "1016590797@qq.com": "bizhifengted@gmail.com"
   },
   "source": {
-    "git": "https://github.com/1016590797@qq.com/TedTools.git",
+    "git": "https://github.com/hydrabi/TedTools.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TedTools/Classes/**/*"
+  "source_files": "TedTools/Classes/Tools.h",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "TedTools/Classes/Base/*.{h,m}"
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 PODS:
-  - TedTools (0.1.0)
+  - TedTools (0.1.0):
+    - TedTools/Base (= 0.1.0)
+  - TedTools/Base (0.1.0)
 
 DEPENDENCIES:
   - TedTools (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TedTools: 921139a804f15a059944e44fef12535a35408d99
+  TedTools: 074f900e6bfc48cf628c4d151a9e244e10c45b16
 
 PODFILE CHECKSUM: f52b62950c529fa94efcfaf23267165f843e2555
 
