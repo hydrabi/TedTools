@@ -8,6 +8,5 @@ target 'TedTools_Example' do
   target 'TedTools_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

@@ -1,0 +1,16 @@
+PODS:
+  - TedTools (0.1.0)
+
+DEPENDENCIES:
+  - TedTools (from `../`)
+
+EXTERNAL SOURCES:
+  TedTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TedTools: 921139a804f15a059944e44fef12535a35408d99
+
+PODFILE CHECKSUM: f52b62950c529fa94efcfaf23267165f843e2555
+
+COCOAPODS: 1.6.1

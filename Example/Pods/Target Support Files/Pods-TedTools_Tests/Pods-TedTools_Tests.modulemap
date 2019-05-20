@@ -1,0 +1,6 @@
+framework module Pods_TedTools_Tests {
+  umbrella header "Pods-TedTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

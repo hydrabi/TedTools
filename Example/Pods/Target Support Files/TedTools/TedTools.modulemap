@@ -1,0 +1,6 @@
+framework module TedTools {
+  umbrella header "TedTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
