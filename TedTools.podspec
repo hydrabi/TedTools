@@ -30,16 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TedTools/Classes/**/*.h'
+  s.source_files = 'TedTools/Classes/Tools.h'
   
   #-----Subspec -------#
   
   s.subspec 'Base' do |ss|
-    ss.source_files = 'TedTools/Classes/Base/**/*.h'
+    ss.source_files = 'TedTools/Classes/Base/**/*'
     end
   
   s.subspec 'Other' do |ss|
-    ss.source_files = 'TedTools/Classes/Other/**/*.h'
+    ss.source_files = 'TedTools/Classes/Other/**/*'
   end
   
   # s.resource_bundles = {
