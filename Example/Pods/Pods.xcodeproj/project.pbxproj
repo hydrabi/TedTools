@@ -13,8 +13,6 @@
 		25711B3A5965EA599AD9A3BEB2FF3662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		51B2C2D09DC6C687879D935B4FFC4C82 /* TedTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A0A8A453B393DE2CAA164191C393C3 /* TedTools-dummy.m */; };
 		7CFCCAE2751DE678BE86E34E86CEA1BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8848CBC922925E9F00EDD5F3 /* OtherTestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 8848CBC722925E9F00EDD5F3 /* OtherTestObj.h */; };
-		8848CBCA22925E9F00EDD5F3 /* OtherTestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848CBC822925E9F00EDD5F3 /* OtherTestObj.m */; };
 		8848CBDC22926F5F00EDD5F3 /* Test1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8848CBDA22926F5F00EDD5F3 /* Test1.h */; };
 		8848CBDD22926F5F00EDD5F3 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8848CBDB22926F5F00EDD5F3 /* Test1.m */; };
 		8848CBE02292725900EDD5F3 /* Test2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8848CBDE2292725900EDD5F3 /* Test2.h */; };
@@ -60,12 +58,11 @@
 		7E4EAB06A7F67E4E9206467B61E95110 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TedTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8640492C2603D7D8EB11FF65CBC29B64 /* TedTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TedTools.xcconfig; sourceTree = "<group>"; };
 		875839FDC24C9E5811592122710B122F /* TedTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TedTools-umbrella.h"; sourceTree = "<group>"; };
-		8848CBC722925E9F00EDD5F3 /* OtherTestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OtherTestObj.h; path = TedTools/Classes/OtherTestObj.h; sourceTree = "<group>"; };
-		8848CBC822925E9F00EDD5F3 /* OtherTestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OtherTestObj.m; path = TedTools/Classes/OtherTestObj.m; sourceTree = "<group>"; };
 		8848CBDA22926F5F00EDD5F3 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
 		8848CBDB22926F5F00EDD5F3 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		8848CBDE2292725900EDD5F3 /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
 		8848CBDF2292725900EDD5F3 /* Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		8848CC20229285BE00EDD5F3 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = TedTools/Classes/Tools.h; sourceTree = "<group>"; };
 		8FA59E60BC433080923C3DA38D790E6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9494CB29BFB177505CA3AD32BC460852 /* Pods-TedTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TedTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9AA68DE7A1B649800F3BCD9934CA6024 /* Pods_TedTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,8 +176,7 @@
 				7E4EAB06A7F67E4E9206467B61E95110 /* ReplaceMe.m */,
 				22067BF041D0CF038E37D8433CC120C5 /* Pod */,
 				6C9978A97D4E036822622EA8B29CAA19 /* Support Files */,
-				8848CBC722925E9F00EDD5F3 /* OtherTestObj.h */,
-				8848CBC822925E9F00EDD5F3 /* OtherTestObj.m */,
+				8848CC20229285BE00EDD5F3 /* Tools.h */,
 			);
 			name = TedTools;
 			path = ../..;
@@ -265,7 +261,6 @@
 			files = (
 				8848CBDC22926F5F00EDD5F3 /* Test1.h in Headers */,
 				9B6DC05188169A29500B345F83115857 /* Pods-TedTools_Example-umbrella.h in Headers */,
-				8848CBC922925E9F00EDD5F3 /* OtherTestObj.h in Headers */,
 				8848CBE02292725900EDD5F3 /* Test2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +401,6 @@
 			files = (
 				8848CBE12292725900EDD5F3 /* Test2.m in Sources */,
 				8848CBDD22926F5F00EDD5F3 /* Test1.m in Sources */,
-				8848CBCA22925E9F00EDD5F3 /* OtherTestObj.m in Sources */,
 				07A659393FD4606788EC0D5BB1F8CD20 /* Pods-TedTools_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
