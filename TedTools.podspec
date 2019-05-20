@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   #-----Subspec -------#
   
-  s.subspce 'Base' do |ss|
+  s.subspec 'Base' do |ss|
     ss.source_files = 'TedTools/Classes/Base.{h,m}'
     end
   
