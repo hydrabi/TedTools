@@ -36,8 +36,14 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Base' do |ss|
     ss.source_files = 'TedTools/Classes/Base/**/*'
+    ss.dependency 'AFNetworking'
+    ss.dependency 'Masonry'
+    ss.dependency 'TedTools/Category'
+    ss.dependency 'ReactiveCocoa', '~> 2.5'
     end
-  
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'TedTools/Classes/Category/**/*'
+  end
   s.subspec 'Other' do |ss|
     ss.source_files = 'TedTools/Classes/Other/**/*'
   end

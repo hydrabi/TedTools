@@ -22,7 +22,29 @@
   "subspecs": [
     {
       "name": "Base",
-      "source_files": "TedTools/Classes/Base/*.{h,m}"
+      "source_files": "TedTools/Classes/Base/**/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "Masonry": [
+
+        ],
+        "TedTools/Category": [
+
+        ],
+        "ReactiveCocoa": [
+          "~> 2.5"
+        ]
+      }
+    },
+    {
+      "name": "Category",
+      "source_files": "TedTools/Classes/Category/**/*"
+    },
+    {
+      "name": "Other",
+      "source_files": "TedTools/Classes/Other/**/*"
     }
   ]
 }

@@ -1,17 +1,57 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - TedTools (0.1.0):
     - TedTools/Base (= 0.1.0)
-  - TedTools/Base (0.1.0)
+    - TedTools/Category (= 0.1.0)
+    - TedTools/Other (= 0.1.0)
+  - TedTools/Base (0.1.0):
+    - AFNetworking
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - TedTools/Category
+  - TedTools/Category (0.1.0)
+  - TedTools/Other (0.1.0)
 
 DEPENDENCIES:
   - TedTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - ReactiveCocoa
 
 EXTERNAL SOURCES:
   TedTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TedTools: 074f900e6bfc48cf628c4d151a9e244e10c45b16
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  TedTools: c0f4f609c0d20cbbefa8391ee4927f920ab9edb2
 
 PODFILE CHECKSUM: f52b62950c529fa94efcfaf23267165f843e2555
 
