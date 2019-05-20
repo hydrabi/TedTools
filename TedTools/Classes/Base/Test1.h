@@ -1,5 +1,5 @@
 //
-//  TEST1.h
+//  Test1.h
 //  Pods-TedTools_Example
 //
 //  Created by iMac on 2019/5/20.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TEST1 : NSObject
+@interface Test1 : NSObject
 
 @end
 
