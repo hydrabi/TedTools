@@ -38,6 +38,10 @@ TODO: Add long description of the pod here.
     ss.source_files = 'TedTools/Classes/Base/*.{h,m}'
     end
   
+  s.subspec 'Other' do |ss|
+    ss.source_files = 'TedTools/Classes/Other/*.{h,m}'
+  end
+  
   # s.resource_bundles = {
   #   'TedTools' => ['TedTools/Assets/*.png']
   # }
