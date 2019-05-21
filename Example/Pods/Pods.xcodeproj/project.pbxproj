@@ -55,7 +55,6 @@
 		212AFD4422E966EDE65129A4B421EE61 /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBE4F56C6D3A8AB015E1D0701FA999 /* RACDynamicSequence.m */; };
 		21457FC36DD6E507B96761BE124C346A /* UIViewController+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = A93F720A51DE4741379AFC4994A073D9 /* UIViewController+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		216FCDB50339E5255D328760DF44A387 /* UIGestureRecognizer+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 625C776BCFE4CF33D2E09BCE0B701703 /* UIGestureRecognizer+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22AA9DBE0E5050305E0F306D020F6A67 /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB5F57E5348BB9EEE57A11B62F8917B /* Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22B02D7DE6B6459E58EAC0DBBB5CFF10 /* RACSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E52040C1B35CE6741240603945FDF175 /* RACSequence.m */; };
 		2428CDA3B0FC3206FEDF1CFE952411C7 /* RACTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = F66FDF46B95E10E522C04102C3304820 /* RACTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24AEC88CFDFB51EFCE916335F46EA0B0 /* RACSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2FBD92008C93116A9CB30F7622341F /* RACSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -461,7 +460,6 @@
 		29D19C42111CBDCDD04F12209C5F5BB4 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		2AE62033DF8FAC595A04E8C81C737E8F /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		2B6098A3DE05585D312167669D9C49A4 /* RACGroupedSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACGroupedSignal.m; path = ReactiveCocoa/RACGroupedSignal.m; sourceTree = "<group>"; };
-		2BB5F57E5348BB9EEE57A11B62F8917B /* Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = TedTools/Classes/Tools.h; sourceTree = "<group>"; };
 		2D9E966ECE4F0D93711AF871C5EABC76 /* Pods-TedTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TedTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DAC493316657F8521EB6786BDAE931E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEA4AEEBF6E61BECF7F57AB3B54BD78 /* Pods-TedTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TedTools_Example-dummy.m"; sourceTree = "<group>"; };
@@ -1198,7 +1196,6 @@
 		BB6EB39A02A7580AAC19E4EBCBD5E875 /* TedTools */ = {
 			isa = PBXGroup;
 			children = (
-				2BB5F57E5348BB9EEE57A11B62F8917B /* Tools.h */,
 				BDFD96C9FB301B4C6D75DB44F3119A70 /* Base */,
 				1CFFF2E80221140A2A12F388FBB2362F /* Category */,
 				CE1548813BB00373A49B391F8A311D0F /* Pod */,
@@ -1686,7 +1683,6 @@
 				7D0D69BA69FD13028D58CD3A713AB9C8 /* SWShadeBackgroundXibView.h in Headers */,
 				871E4DADFF7CA5D7B2DA3204DF309F05 /* Ted_CategoryHeader.h in Headers */,
 				2603A851DD3ED3CF77C826DABAC21FF1 /* TedTools-umbrella.h in Headers */,
-				22AA9DBE0E5050305E0F306D020F6A67 /* Tools.h in Headers */,
 				8D2EC9A019694BE94DA276672BEB2AA1 /* UIAlertController+Addition.h in Headers */,
 				7E301CAF303C37DD25D68DB938D9DF52 /* UIButton+Addition.h in Headers */,
 				637F0506B21763D7971739B795CA1CFD /* UIButton+TouchAreaInsets.h in Headers */,
