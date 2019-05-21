@@ -12,7 +12,7 @@
 #import "SWCustomNavButton.h"
 #import "UIButton+TouchAreaInsets.h"
 #import "UIColor+Addition.h"
-#import "Base_Macro.h"
+#import "SWBaseMacro.h"
 
 //取消按钮
 static NSString * const cancelTitle = @"取消";

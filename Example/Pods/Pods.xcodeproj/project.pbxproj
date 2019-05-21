@@ -181,7 +181,7 @@
 		8652AB911D245FB698B78B97618B9623 /* SWBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC69768754B667E851322DF7EF866A1 /* SWBaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01217947131B107AA8AE3BCD96F7A524 /* AFSecurityPolicy.m */; };
 		871E4DADFF7CA5D7B2DA3204DF309F05 /* Ted_CategoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3553CA61DB2A5C3A6F91A4CB215930 /* Ted_CategoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8848CCBF2292BB5C00EDD5F3 /* Base_Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8848CCBE2292BB5C00EDD5F3 /* Base_Macro.h */; };
+		8848CCBF2292BB5C00EDD5F3 /* SWBaseMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8848CCBE2292BB5C00EDD5F3 /* SWBaseMacro.h */; };
 		88907C95890B8447384745C256925339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384279F15AC12FAC42F52EA4DE3312D1 /* Foundation.framework */; };
 		891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DCECFBE664DE64FD10FCBADC5A67EE /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A5DEA2CA5EB0F3A8CB7A97B053328CD /* TedTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C70726DCA3C3989C71CC8EB60941A2 /* TedTools-dummy.m */; };
@@ -599,7 +599,7 @@
 		8563EDDC369363E76B528FF6577B6488 /* UIRefreshControl+RACCommandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+RACCommandSupport.m"; path = "ReactiveCocoa/UIRefreshControl+RACCommandSupport.m"; sourceTree = "<group>"; };
 		87321438CC83EAF4672CEAAFCE4511C4 /* ReactiveCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-prefix.pch"; sourceTree = "<group>"; };
 		87D30E3B0E54768BBF4CA6334DB7778D /* TedTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TedTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8848CCBE2292BB5C00EDD5F3 /* Base_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base_Macro.h; path = TedTools/Classes/Base/Base_Macro.h; sourceTree = "<group>"; };
+		8848CCBE2292BB5C00EDD5F3 /* SWBaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWBaseMacro.h; path = TedTools/Classes/Base/SWBaseMacro.h; sourceTree = "<group>"; };
 		89048C52520BC64BA6F6C0F4BD70A455 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		8A699B30AE4CC8F77A6AE2CAFAB70DA0 /* RACBlockTrampoline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACBlockTrampoline.h; path = ReactiveCocoa/RACBlockTrampoline.h; sourceTree = "<group>"; };
 		8AE7FF938084F2C68F9C6ABBC855880C /* UIColor+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
@@ -1218,7 +1218,7 @@
 		BDFD96C9FB301B4C6D75DB44F3119A70 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8848CCBE2292BB5C00EDD5F3 /* Base_Macro.h */,
+				8848CCBE2292BB5C00EDD5F3 /* SWBaseMacro.h */,
 				73C343DDE3715D7FFEA8D392F3034E19 /* SWBaseCollectionViewArrDataSource.h */,
 				C218FBDA29880CAAF2FE4D63C432CDEF /* SWBaseCollectionViewArrDataSource.m */,
 				D8CF40E21FCC857EB3E0A5D84BFD567B /* SWBaseCollectionViewDataSource.h */,
@@ -1633,7 +1633,7 @@
 				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
 				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
 				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
-				8848CCBF2292BB5C00EDD5F3 /* Base_Macro.h in Headers */,
+				8848CCBF2292BB5C00EDD5F3 /* SWBaseMacro.h in Headers */,
 				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
