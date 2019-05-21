@@ -43,8 +43,13 @@
       "source_files": "TedTools/Classes/Category/**/*"
     },
     {
-      "name": "Other",
-      "source_files": "TedTools/Classes/Other/**/*"
+      "name": "Utils",
+      "source_files": "TedTools/Classes/Utils/**/*",
+      "dependencies": {
+        "TedTools/Category": [
+
+        ]
+      }
     }
   ]
 }

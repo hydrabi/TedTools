@@ -10,10 +10,10 @@
 #endif
 #endif
 
-#import "Tools.h"
 #import "SWBaseCollectionViewArrDataSource.h"
 #import "SWBaseCollectionViewDataSource.h"
 #import "SWBaseEventHandler.h"
+#import "SWBaseMacro.h"
 #import "SWBaseNormalView.h"
 #import "SWBaseScrollView.h"
 #import "SWBaseTableViewDataSource.h"
@@ -36,6 +36,13 @@
 #import "UIView+Addition.h"
 #import "UIView+Corners.h"
 #import "UIViewController+Addition.h"
+#import "CSQuickCacheUtils.h"
+#import "SWQuickBaseOperation.h"
+#import "CSCachePathManager.h"
+#import "CSQuickQueueOperation.h"
+#import "CSSystemUtil.h"
+#import "CSQuickUIUtils.h"
+#import "CSImage.h"
 
 FOUNDATION_EXPORT double TedToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TedToolsVersionString[];

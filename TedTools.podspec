@@ -44,8 +44,9 @@ TODO: Add long description of the pod here.
   s.subspec 'Category' do |ss|
     ss.source_files = 'TedTools/Classes/Category/**/*'
   end
-  s.subspec 'Other' do |ss|
-    ss.source_files = 'TedTools/Classes/Other/**/*'
+  s.subspec 'Utils' do |ss|
+    ss.source_files = 'TedTools/Classes/Utils/**/*'
+    ss.dependency 'TedTools/Category'
   end
   
   # s.resource_bundles = {

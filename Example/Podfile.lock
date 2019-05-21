@@ -25,14 +25,15 @@ PODS:
   - TedTools (0.1.0):
     - TedTools/Base (= 0.1.0)
     - TedTools/Category (= 0.1.0)
-    - TedTools/Other (= 0.1.0)
+    - TedTools/Utils (= 0.1.0)
   - TedTools/Base (0.1.0):
     - AFNetworking
     - Masonry
     - ReactiveCocoa (~> 2.5)
     - TedTools/Category
   - TedTools/Category (0.1.0)
-  - TedTools/Other (0.1.0)
+  - TedTools/Utils (0.1.0):
+    - TedTools/Category
 
 DEPENDENCIES:
   - TedTools (from `../`)
@@ -51,7 +52,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  TedTools: c0f4f609c0d20cbbefa8391ee4927f920ab9edb2
+  TedTools: 645fce83db4da3b0e30e4a6d5840b30e18d8b6cf
 
 PODFILE CHECKSUM: f52b62950c529fa94efcfaf23267165f843e2555
 
