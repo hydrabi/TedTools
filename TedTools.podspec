@@ -48,8 +48,8 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Category' do |ss|
     ss.source_files = 'TedTools/Classes/Category/**/*'
-    ss.subspec 'NSUserDefault' do |sss|
-        sss.source_files = 'TedTools/Classes/Category/NSUserDefault/**/*'
+    ss.subspec 'UserDefault' do |sss|
+        sss.source_files = 'TedTools/Classes/Category/UserDefault/**/*'
         end
   end
   s.subspec 'Utils' do |ss|
