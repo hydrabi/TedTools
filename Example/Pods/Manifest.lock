@@ -22,24 +22,27 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - TedTools (0.1.0):
-    - TedTools/Base (= 0.1.0)
-    - TedTools/Category (= 0.1.0)
-    - TedTools/Utils (= 0.1.0)
-  - TedTools/Base (0.1.0):
+  - TedTools (0.0.1):
+    - TedTools/Base (= 0.0.1)
+    - TedTools/Category (= 0.0.1)
+    - TedTools/CustomView (= 0.0.1)
+    - TedTools/Utils (= 0.0.1)
+  - TedTools/Base (0.0.1):
     - AFNetworking
     - Masonry
     - ReactiveCocoa (~> 2.5)
     - TedTools/Category
-  - TedTools/Category (0.1.0)
-  - TedTools/Utils (0.1.0):
+  - TedTools/Category (0.0.1)
+  - TedTools/CustomView (0.0.1):
+    - TedTools/Category
+  - TedTools/Utils (0.0.1):
     - TedTools/Category
 
 DEPENDENCIES:
   - TedTools (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
     - ReactiveCocoa
@@ -52,8 +55,8 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  TedTools: 645fce83db4da3b0e30e4a6d5840b30e18d8b6cf
+  TedTools: 6d00d5dc6b9af49e8d64028aead0756f8504085b
 
 PODFILE CHECKSUM: f52b62950c529fa94efcfaf23267165f843e2555
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.1

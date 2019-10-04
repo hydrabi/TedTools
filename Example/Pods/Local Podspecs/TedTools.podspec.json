@@ -1,6 +1,6 @@
 {
   "name": "TedTools",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "Tools",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hydrabi/TedTools",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/hydrabi/TedTools.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TedTools/Classes/Tools.h",
   "subspecs": [
     {
       "name": "Base",
@@ -35,6 +34,15 @@
         ],
         "ReactiveCocoa": [
           "~> 2.5"
+        ]
+      }
+    },
+    {
+      "name": "CustomView",
+      "source_files": "TedTools/Classes/CustomView/**/*",
+      "dependencies": {
+        "TedTools/Category": [
+
         ]
       }
     },

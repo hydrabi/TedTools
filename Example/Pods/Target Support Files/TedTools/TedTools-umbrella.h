@@ -36,13 +36,14 @@
 #import "UIView+Addition.h"
 #import "UIView+Corners.h"
 #import "UIViewController+Addition.h"
-#import "CSQuickCacheUtils.h"
+#import "TEAlignmentButton.h"
+#import "SWQuickCacheUtils.h"
 #import "SWQuickBaseOperation.h"
-#import "CSCachePathManager.h"
-#import "CSQuickQueueOperation.h"
-#import "CSSystemUtil.h"
-#import "CSQuickUIUtils.h"
-#import "CSImage.h"
+#import "SWCachePathManager.h"
+#import "SWQuickQueueOperation.h"
+#import "SWSystemUtil.h"
+#import "SWQuickUIUtils.h"
+#import "SWImage.h"
 
 FOUNDATION_EXPORT double TedToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TedToolsVersionString[];

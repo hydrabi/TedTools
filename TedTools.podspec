@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TedTools'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'Tools'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TedTools/Classes/Tools.h'
+#  s.source_files = 'TedTools/Classes/Tools.h'
   
   #-----Subspec -------#
   
@@ -41,8 +41,16 @@ TODO: Add long description of the pod here.
     ss.dependency 'TedTools/Category'
     ss.dependency 'ReactiveCocoa', '~> 2.5'
     end
+  s.subspec 'CustomView' do |ss|
+  ss.source_files = 'TedTools/Classes/CustomView/**/*'
+  ss.dependency 'TedTools/Category'
+  end
+  
   s.subspec 'Category' do |ss|
     ss.source_files = 'TedTools/Classes/Category/**/*'
+    ss.subspec 'NSUserDefault' do |sss|
+        sss.source_files = 'TedTools/Classes/Category/NSUserDefault/**/*'
+        end
   end
   s.subspec 'Utils' do |ss|
     ss.source_files = 'TedTools/Classes/Utils/**/*'
